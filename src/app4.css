@@ -1,0 +1,19 @@
+#app4 .circle {
+  border: 1px solid red;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+#app4 .circle.active {
+  animation: 1s linear infinite identifier;
+}
+
+@keyframes identifier {
+  0% {
+    background: red;
+  }
+  100% {
+    background: blue;
+  }
+}
